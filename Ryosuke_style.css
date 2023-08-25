@@ -304,11 +304,11 @@ ul {
 	margin-top: -10px;
 }
 .content li{
-	padding: 5px 0;
+	padding: 3px 0;
 }
 
-.preprint{
-  list-style-type: none; /*none,circle,square*/
+.preprint ol{
+  list-style-type: disk; /*none,circle,square*/
 	margin-left: auto;
 }
 
