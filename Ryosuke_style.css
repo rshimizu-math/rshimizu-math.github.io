@@ -309,7 +309,7 @@ ul {
 }
 
 .preprint ol{
-  list-style-type: disk; /*none,circle,square*/
+  list-style-type: square; /*none,circle,square*/
 	margin-left: auto;
 }
 
