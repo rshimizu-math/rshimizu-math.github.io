@@ -302,11 +302,13 @@ ul {
 }
 .content li:first-child{
 	margin-top: -10px;
+}
+.content li{
 	padding: 5px 0;
 }
 
-.preprint ul {
-  list-style-type: disk; /*none,circle,square*/
+.preprint{
+  list-style-type: none; /*none,circle,square*/
 	margin-left: auto;
 }
 
