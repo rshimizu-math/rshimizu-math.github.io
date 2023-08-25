@@ -305,6 +305,7 @@ ul {
 }
 .content li{
 	padding: 3px 0;
+	line-height: 1.2;
 }
 
 .preprint ol{
