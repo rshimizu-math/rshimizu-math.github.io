@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-/* サイズの値にパディング／ボーダーも含むようにする */
+/* border */
 *, *::before, ::after {
 	box-sizing: border-box;
 }
 
-/* スクリーントーンのカバー */
+/* ー */
 /*.cover::after {
 	content: "";
 	display: block;
@@ -19,7 +19,7 @@
 	background: rgba(0,0,0,.1) radial-gradient(rgba(0,0,0,.1) 25%, transparent 0) center / 5px 5px;
 }*/
 
-/* ページコンテンツのスタイル指定 */
+/* page body */
 body {
   box-sizing: border-box;
   margin: 0;
@@ -245,7 +245,7 @@ figure {
 	height: 22px;
 }
 
-/*header menuの設定*/
+/*header menu*/
 
 ul {
   list-style:none;
@@ -294,7 +294,7 @@ ul {
 	color: #009cd3;
 }
 
-/*残りのページの文字の大きさなどの設定*/
+/*other pages*/
 
 .content section{
 	width: 100%;
