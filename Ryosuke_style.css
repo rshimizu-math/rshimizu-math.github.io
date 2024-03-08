@@ -44,7 +44,7 @@ main h1,
 main .lead,
 main section {
   box-sizing: border-box;
-	width: 1040px;
+	width: 960px; /* 1040px*/
 	margin: 1em auto;
 }
 main h1,
