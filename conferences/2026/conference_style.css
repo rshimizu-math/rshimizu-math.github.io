@@ -294,12 +294,6 @@ ul {
 	color: #009cd3;
 }
 
-@media screen and (max-width: 1024px) {
-    header {
-        height: 32vh;
-    	}
-}
-
 /*残りのページの文字の大きさなどの設定*/
 
 .content section{
