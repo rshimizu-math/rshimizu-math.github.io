@@ -317,3 +317,12 @@ ul {
 .link:visited{
   color: #FFD400;
 }
+
+/*スマホ用の調整設定*/
+
+@media screen and (max-width: 767px) {
+  .mv-background {
+    background-size: cover;
+    background-position: center;
+  }
+}
