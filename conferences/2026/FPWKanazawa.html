@@ -12,17 +12,13 @@
     	min-height: 250px; 
     	background: url(fractals-kanazawa.jpg) center / cover; 
     } 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1024px) and (min-width: 768px) {
     header {
-        height: 30vh;
+        height: auto;
         min-height: 200px;
-        background-position: center top;
+        aspect-ratio: 16 / 9;
+        background-position: center;
    	 	}
-	}
-	@media screen and (max-width: 1024px) {
-    header {
-        height: 32vh;
-    	}
 	}
   </style>
 </head>
