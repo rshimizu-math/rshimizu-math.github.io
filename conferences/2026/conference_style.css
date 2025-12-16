@@ -73,7 +73,6 @@ main h3 {
 	margin-left: -40px;
 	margin-bottom: 15px;
 	margin-top: 40px;
-	padding: 0 50px;
 }
 main p {
 	margin-top: -10px;
@@ -131,6 +130,14 @@ figure {
   background-color: transparent;
   margin-top: 0;
   padding: 0;
+}
+
+/*幅調整*/
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 48px;
 }
 
 /*見出しをおしゃれにする*/
