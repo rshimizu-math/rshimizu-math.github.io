@@ -133,14 +133,6 @@ figure {
   padding: 0;
 }
 
-/*幅調整*/
-.container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 48px;
-}
-
 /*見出しをおしゃれにする*/
 .icon:before{
   content: "";
