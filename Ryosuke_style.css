@@ -326,26 +326,58 @@ ul {
 
 /* Home page: mobile header */
 @media screen and (max-width: 600px) {
-  #home .header__flex nav {
+  main h1,
+  main .lead,
+  main section {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  main {
+    padding: 2em 16px;
+    margin-top: -40px;
+    font-size: 1rem;
+  }
+
+  main h2,
+  main h3 {
+    margin-left: 0;
+  }
+
+  #home footer {
+    width: 100%;
+    max-width: 100%;
+    margin: 60px auto 0;
+  }
+
+  .header__flex nav {
     width: 100%;
   }
 
-  #home .header__flex ul {
+  .header__flex ul {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 12px;
+    gap: 8px;
+    padding: 0 10px;
     margin: 0;
-    gap: 10px;
   }
 
-  #home .header__flex ul li {
+  .header__flex ul li {
     margin: 0;
-    font-size: 12px;
+    font-size: 11px;
     white-space: nowrap;
   }
 
-  #home .header__flex ul li:first-child {
+  .header__flex ul li:first-child {
     margin-right: auto;
-    font-size: 13px;
+    font-size: 12px;
   }
-} 
+
+  #home h1 {
+    font-size: 36px;
+    overflow-wrap: anywhere;
+  }
+}
