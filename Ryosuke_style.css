@@ -323,3 +323,29 @@ ul {
 .link:visited{
   color: #FFD400;
 }
+
+/* Home page: mobile header */
+@media screen and (max-width: 600px) {
+  #home .header__flex nav {
+    width: 100%;
+  }
+
+  #home .header__flex ul {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin: 0;
+    gap: 10px;
+  }
+
+  #home .header__flex ul li {
+    margin: 0;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  #home .header__flex ul li:first-child {
+    margin-right: auto;
+    font-size: 13px;
+  }
+} 
